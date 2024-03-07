@@ -1,18 +1,18 @@
-# [Nome do projeto]
+# [Noma Uniformes]
 
-[Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.]
+[O objetivo do trabalho é elaborar e projetar um sistema prático e intuitivo que auxilie nas funções da empresa, com o intuito de ajudar a contabilizar o estoque, saber como esta a produção dos uniformes, com qual profissional esta determinada demanda, fazer simulações de possíveis produções, ter o controle sobre o histórico de pedidos e sair do modo arcaico de como a empresa estava operando.]
 
 ## Alunos integrantes da equipe
 
-* [Nome completo do aluno 1]
-* [Nome completo do aluno 2]
-* [Nome completo do aluno 3]
-* [Nome completo do aluno 4]
+* [Arthur Felipe Lopes Ferreira]
+* [Camila Melo Ferreira]
+* [Lucas Nogueira Mazzieiro de Carvalho]
+* [Vitor de Figueiredo Pereira]
 
 ## Professores responsáveis
 
-* [Nome completo do professor 1]
-* [Nome completo do professor 2]
+* [Lucila Ishitani]
+* [Soraia Lúcia da Silva]
 
 ## Instruções de utilização
 
