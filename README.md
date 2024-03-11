@@ -4,15 +4,15 @@
 
 ## Alunos integrantes da equipe
 
-* [Arthur Felipe Lopes Ferreira]
-* [Camila Melo Ferreira]
-* [Lucas Nogueira Mazzieiro de Carvalho]
-* [Vitor de Figueiredo Pereira]
+* Arthur Felipe Lopes Ferreira
+* Camila Melo Ferreira
+* Lucas Nogueira Mazzieiro de Carvalho
+* Vitor de Figueiredo Pereira
 
 ## Professores responsáveis
 
-* [Lucila Ishitani]
-* [Soraia Lúcia da Silva]
+* Lucila Ishitani
+* Soraia Lúcia da Silva
 
 ## Instruções de utilização
 
