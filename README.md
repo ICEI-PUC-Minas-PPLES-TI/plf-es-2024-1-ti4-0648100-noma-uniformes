@@ -1,6 +1,6 @@
-# [Noma Uniformes]
+# Noma Uniformes
 
-[O objetivo do trabalho é elaborar e projetar um sistema prático e intuitivo que auxilie nas funções da empresa, com o intuito de ajudar a contabilizar o estoque, saber como esta a produção dos uniformes, com qual profissional esta determinada demanda, fazer simulações de possíveis produções, ter o controle sobre o histórico de pedidos e sair do modo arcaico de como a empresa estava operando.]
+O objetivo do trabalho é elaborar e projetar um sistema prático e intuitivo que auxilie nas funções da empresa, com o intuito de ajudar a contabilizar o estoque, saber como esta a produção dos uniformes, com qual profissional esta determinada demanda, fazer simulações de possíveis produções, ter o controle sobre o histórico de pedidos e sair do modo arcaico de como a empresa estava operando.
 
 ## Alunos integrantes da equipe
 
