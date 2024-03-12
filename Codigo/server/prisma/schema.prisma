@@ -1,0 +1,31 @@
+datasource db{
+    provider = "postgresql"
+    url = env("PRISMA_URL")
+}
+
+model Costureira {
+  id        Int      @id @default(autoincrement())
+  nome      String   @db.VarChar(70)
+  demandaQnt Int
+  dataEntrega DateTime
+  endereco  String
+  producao Produto_has_costureira[]
+}
+
+model Produto_has_costureira{
+    id Int @id @default(autoincrement())
+    costureiraId Int
+    costureira Costureira @relation(fields: [costureiraId], references: [id])
+    produtoId Int
+    produtoResponsavel Produto @relation(fields: [produtoId], references: [id])
+}
+
+enum Tipo{
+    Tecido
+}
+
+model Produto{
+    id Int @id @default(autoincrement())
+    tipo Tipo
+    producao Produto_has_costureira[]
+}
