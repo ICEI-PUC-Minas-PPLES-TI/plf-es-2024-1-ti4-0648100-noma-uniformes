@@ -32,3 +32,11 @@ const storage = multer.diskStorage({
     }
 });
 const upload = multer({storage});
+
+/* EXPRESS */
+
+app.get("/", (req, res) => {
+    return res.json({hello: 'world'})
+})
+
+app.listen(5000, () => console.log('Servidor na porta 5000'))
