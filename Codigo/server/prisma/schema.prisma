@@ -3,6 +3,16 @@ datasource db{
     url = env("PRISMA_URL")
 }
 
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Usuario {
+    id Int @id @default(autoincrement())
+    nome String @unique @db.VarChar(70)
+    senha String
+}
+
 model Costureira {
   id        Int      @id @default(autoincrement())
   nome      String   @db.VarChar(70)
