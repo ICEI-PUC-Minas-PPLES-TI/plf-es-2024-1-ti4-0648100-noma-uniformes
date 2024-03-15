@@ -34,6 +34,27 @@ export default{
         }
     },
 
+    //Obter usuário por nome e senha
+    async obterUsuarioNomeSenha(req, res) {
+        try {    
+            const {nome, senha} = req.body
+            
+            const user = await prisma.usuario.findUnique({
+                where:{
+                    nome: nome,
+                    senha: senha
+                }
+            })
+    
+            if(!user) return res.status(404).json({erro: "Usuário não encontrado"})
+    
+            return res.json(user)
+        }    
+        catch (error){
+            return res.status(400).json({error: "Erro ao obter usuário", errorMessage: error.message})
+        }
+    },
+
     //Obter usuário por id
     async obterUsuario(req, res) {
         try {    
