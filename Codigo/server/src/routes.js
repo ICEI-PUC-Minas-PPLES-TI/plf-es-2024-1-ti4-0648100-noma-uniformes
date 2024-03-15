@@ -8,7 +8,7 @@ const costureira = CostureiraController; // instanciar o controller
 
 /* ROTAS DE USUÁRIO */
 
-router.post("/user", user.criarUsuario)
+router.post("/registerUser", user.criarUsuario)
 
 router.post("/loginUser", user.obterUsuarioNomeSenha)
 
