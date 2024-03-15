@@ -28,6 +28,6 @@ router.get("/getCostureira/:id", costureira.obterCostureira)
 
 router.delete("/deleteCostureira/:id", costureira.deletarCostureira)
 
-router.patch("/costureira/:id", costureira.atualizarCostureira)
+router.patch("/updateCostureira/:id", costureira.atualizarCostureira)
 
 export { router }
